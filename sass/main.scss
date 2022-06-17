@@ -1,0 +1,15 @@
+// Import the function & variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$mnutrition-theme-colors: (
+  "m-primary": #94ba47,
+  "m-secondary": #f3efeb,
+  "m-text-selected-color": #9cbf55,
+  "m-text-color": #493c37,
+);
+
+$theme-colors: map-merge($mnutrition-theme-colors, $theme-colors);
+
+// Import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
