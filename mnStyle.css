@@ -2,7 +2,7 @@
   --fs-xl: 2.5rem;
   --img-height: 1300px;
   --img-position: -850px;
-  --img-heigth-content: 250px;
+  --img-heigth-content: 350px;
   --img-marging-x: -85px;
 }
 .menu-font {
@@ -61,6 +61,12 @@
 .btn-rdv {
   background-color: #fff;
   opacity: 0.9;
+  max-width: 810px;
+}
+.btn-rdv-icone {
+  width: 50px;
+  height: 50px;
+  /* fill: #94ba47; */
 }
 
 .card-container {
