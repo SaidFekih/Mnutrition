@@ -1,5 +1,9 @@
 :root {
   --fs-xl: 2.5rem;
+  --img-height: 1300px;
+  --img-position: -850px;
+  --img-heigth-content: 250px;
+  --img-marging-x: -85px;
 }
 .menu-font {
   font-size: var(--fs-xl);
@@ -7,11 +11,28 @@
 @media (min-width: 992px) {
   :root {
     --fs-xl: 1.5rem;
+    --img-height: 1300px;
+  }
+}
+@media (max-width: 992px) {
+  :root {
+    --img-height: 1000px;
+    --img-position: -630px;
+  }
+}
+@media (max-width: 770px) {
+  :root {
+    --img-height: 700px;
+    --img-position: -420px;
   }
 }
 @media (max-width: 576px) {
   :root {
     --fs-xl: 1.7rem;
+    --img-height: 500px;
+    --img-position: -340px;
+    --img-heigth-content: 150px;
+    --img-marging-x: -25px;
   }
 }
 .menu-ligne {
@@ -25,4 +46,33 @@
   height: 30px;
   background-color: #e8d9d1;
   list-style-type: none;
+}
+.spacing {
+  letter-spacing: 2px;
+}
+.appointment {
+  height: var(--img-heigth-content);
+  width: 100%;
+  background-image: url(assets/img/interview-in-cafe.jpg);
+  background-repeat: no-repeat;
+  background-size: 120% var(--img-height);
+  background-position: var(--img-marging-x) var(--img-position);
+}
+.btn-rdv {
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.card-container {
+  display: flex;
+}
+.gradient-img {
+  width: 400px;
+  height: 400px;
+  border: solid 2px;
+  background: linear-gradient(
+    to right,
+    var(--gradien-primary-color),
+    var(--gradien-secondary-color)
+  );
 }
