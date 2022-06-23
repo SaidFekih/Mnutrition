@@ -66,16 +66,19 @@
 .appointment {
   height: var(--img-heigth-content);
   width: 100%;
-  background-image: url(assets/img/interview-in-cafe.jpg);
+  background-image: url(../assets/img/interview-in-cafe.jpg);
   background-repeat: no-repeat;
   background-size: 120% var(--img-height);
   background-position: var(--img-marging-x) var(--img-position);
 }
 
 .btn-rdv {
-  background-color: #fff;
+  background-color: #fff !important;
   opacity: 0.9;
   max-width: 810px;
+}
+.btn-rdv:hover {
+  background-color: rgb(202, 205, 205) !important;
 }
 
 .btn-rdv-title {
