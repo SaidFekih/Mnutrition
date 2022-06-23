@@ -9,6 +9,7 @@
   --img-marging-x: -85px;
   --max-rdv-h: 60%;
   --svg-m-b: 0px;
+  --img-width: 100%;
 }
 @media (min-width: 992px) {
   :root {
@@ -31,6 +32,7 @@
     --img-height: 700px;
     --img-position: -420px;
     --max-h-60: 60%;
+    --img-width: 17rem;
   }
 }
 @media (max-width: 576px) {
@@ -48,9 +50,15 @@
 .menu-font {
   font-size: var(--fs-xl);
 }
-.menu-ligne {
+.menu-line {
   height: 2px !important;
   background-color: #e8d9d1;
+  border: none;
+  opacity: 1;
+}
+.line-separator {
+  height: 4px !important;
+  background-color: #94ba47;
   border: none;
   opacity: 1;
 }
@@ -59,6 +67,16 @@
   height: 30px;
   background-color: #e8d9d1;
   list-style-type: none;
+}
+.bonbon {
+  background: #fff !important;
+  border-radius: 50% !important;
+  width: 100px !important;
+  height: 100px !important;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .spacing {
   letter-spacing: 2px;
@@ -76,9 +94,11 @@
   background-color: #fff !important;
   opacity: 0.9;
   max-width: 810px;
+  min-width: 270px;
 }
 .btn-rdv:hover {
   background-color: rgb(202, 205, 205) !important;
+  color: #fff !important;
 }
 
 .btn-rdv-title {
@@ -95,9 +115,14 @@
 .svg-m-b {
   padding-bottom: var(--svg-m-b);
 }
+.img-eat {
+  width: var(--img-width);
+}
+
 .card-container {
   display: flex;
 }
+
 .gradient-img {
   width: 400px;
   height: 400px;
