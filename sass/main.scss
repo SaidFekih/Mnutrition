@@ -16,6 +16,7 @@ $mnutrition-theme-colors: (
   "m-dark": #959293,
   "m-text-selected-color": #9cbf55,
   "m-text-color": #4c4745,
+  "m-primary-opacity": #c9dca2,
 );
 
 $theme-colors: map-merge($mnutrition-theme-colors, $theme-colors);
