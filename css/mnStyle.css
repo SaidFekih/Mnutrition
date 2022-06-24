@@ -15,6 +15,7 @@
   --img-left: 38px;
   --w-bonbon: 100px;
   --w-card: 5rem;
+  --m-m-mange: 920px;
 }
 @media (min-width: 992px) {
   :root {
@@ -26,6 +27,7 @@
   :root {
     --img-bottom: 938px;
     --img-left: 60px;
+    --m-m-mange: 1020px;
   }
 }
 
@@ -46,6 +48,7 @@
     --img-bottom: 222px;
     --img-left: 0px;
     --w-card: 0;
+    --m-m-mange: 1170px;
   }
 }
 @media (max-width: 768px) {
@@ -56,6 +59,7 @@
     --img-position: -420px;
     --max-h-60: 60%;
     --img-width: 17rem;
+    --m-m-mange: 1210px;
   }
 }
 @media (max-width: 576px) {
@@ -70,6 +74,52 @@
     --svg-m-b: 14px;
     --w-con: 90%;
     --img-width: 10rem;
+    --m-m-mange: 69rem;
+  }
+}
+@media (max-width: 481px) {
+  :root {
+    --m-m-mange: 72rem;
+  }
+}
+@media (max-width: 445px) {
+  :root {
+    --m-m-mange: 73rem;
+  }
+}
+@media (max-width: 444px) {
+  :root {
+    --m-m-mange: 80rem;
+  }
+}
+@media (max-width: 384px) {
+  :root {
+    --m-m-mange: 83rem;
+  }
+}
+@media (max-width: 353px) {
+  :root {
+    --m-m-mange: 85rem;
+  }
+}
+@media (max-width: 327px) {
+  :root {
+    --m-m-mange: 90rem;
+  }
+}
+@media (max-width: 303px) {
+  :root {
+    --m-m-mange: 96rem;
+  }
+}
+@media (max-width: 290px) {
+  :root {
+    --m-m-mange: 99rem;
+  }
+}
+@media (max-width: 280px) {
+  :root {
+    --m-m-mange: 1610px;
   }
 }
 .menu-font {
@@ -158,6 +208,9 @@
 .img-eat {
   width: var(--img-width);
   min-height: 370px !important;
+}
+.s-m-manges {
+  max-height: var(--m-m-mange);
 }
 .card-container {
   width: var(--w-con);
