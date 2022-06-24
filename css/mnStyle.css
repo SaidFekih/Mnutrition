@@ -10,6 +10,7 @@
   --max-rdv-h: 60%;
   --svg-m-b: 0px;
   --img-width: 100%;
+  --w-con: 75%;
 }
 @media (min-width: 992px) {
   :root {
@@ -45,6 +46,7 @@
     --img-marging-x: -25px;
     --max-rdv-h: 50%;
     --svg-m-b: 14px;
+    --w-con: 90%;
   }
 }
 .menu-font {
@@ -68,15 +70,30 @@
   background-color: #e8d9d1;
   list-style-type: none;
 }
-.bonbon {
-  background: #fff !important;
-  border-radius: 50% !important;
-  width: 100px !important;
-  height: 100px !important;
-  margin-left: 20px;
+.bonbon-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  min-width: 200px;
+}
+.bonbon {
+  background: #fff;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Poppins-Light;
+  color: #94ba47;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: bolder;
+  margin: 0.6rem;
 }
 .spacing {
   letter-spacing: 2px;
@@ -118,9 +135,8 @@
 .img-eat {
   width: var(--img-width);
 }
-
 .card-container {
-  display: flex;
+  width: var(--w-con);
 }
 
 .gradient-img {
