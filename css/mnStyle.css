@@ -251,6 +251,13 @@
   z-index: -1;
   margin-bottom: -587px;
 }
+
+#right_side_order {
+  transform: scale(0.7);
+  box-shadow: -200px 170px #f3eee9;
+  z-index: -1;
+}
+
 .gradient-img {
   width: 400px;
   height: 400px;
