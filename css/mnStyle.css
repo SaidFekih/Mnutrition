@@ -16,6 +16,7 @@
   --w-bonbon: 100px;
   --w-card: 5rem;
   --m-m-mange: 920px;
+  --h-pseudo: 597px;
 }
 @media (min-width: 992px) {
   :root {
@@ -234,6 +235,21 @@
   font-weight: bolder;
   font-family: PlayfairDisplay;
   margin-top: 1.5rem;
+}
+.img-pseudo {
+  border: none;
+}
+.img-pseudo::before {
+  content: "";
+  background-color: #f3eee9;
+  display: flex;
+  position: relative;
+  width: 225px;
+  height: var(--h-pseudo);
+  top: -110px;
+  left: 60%;
+  z-index: -1;
+  margin-bottom: -587px;
 }
 .gradient-img {
   width: 400px;
