@@ -11,6 +11,10 @@
   --svg-m-b: 0px;
   --img-width: 100%;
   --w-con: 75%;
+  --img-bottom: 880px;
+  --img-left: 38px;
+  --w-bonbon: 100px;
+  --w-card: 5rem;
 }
 @media (min-width: 992px) {
   :root {
@@ -18,12 +22,30 @@
     --img-height: 1300px;
   }
 }
+@media (max-width: 1399px) {
+  :root {
+    --img-bottom: 938px;
+    --img-left: 60px;
+  }
+}
+
+@media (max-width: 1199px) {
+  :root {
+    --img-bottom: 938px;
+    --img-left: 50px;
+    --w-bonbon: 80px;
+  }
+}
+
 @media (max-width: 992px) {
   :root {
     --fs-rdv: 2rem;
     --fs-rdv-p: 1.3rem;
     --img-height: 1000px;
     --img-position: -630px;
+    --img-bottom: 222px;
+    --img-left: 0px;
+    --w-card: 0;
   }
 }
 @media (max-width: 768px) {
@@ -47,6 +69,7 @@
     --max-rdv-h: 50%;
     --svg-m-b: 14px;
     --w-con: 90%;
+    --img-width: 10rem;
   }
 }
 .menu-font {
@@ -80,8 +103,8 @@
 .bonbon {
   background: #fff;
   border-radius: 50%;
-  width: 110px;
-  height: 110px;
+  width: var(--w-bonbon);
+  height: var(--w-bonbon);
   padding: 3px;
   display: flex;
   justify-content: center;
@@ -90,10 +113,10 @@
   font-family: Poppins-Light;
   color: #94ba47;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   text-align: center;
   font-weight: bolder;
-  margin: 0.6rem;
+  margin: 0.1rem;
 }
 .spacing {
   letter-spacing: 2px;
@@ -134,9 +157,16 @@
 }
 .img-eat {
   width: var(--img-width);
+  min-height: 370px !important;
 }
 .card-container {
   width: var(--w-con);
+  padding-left: var(--w-card) !important;
+}
+.supperpose {
+  position: relative;
+  left: var(--img-left);
+  bottom: var(--img-bottom);
 }
 
 .gradient-img {
