@@ -273,6 +273,9 @@
 .padding-bullets {
   margin-left: 25px;
 }
+.scacale-footer-img {
+  transform: scale(0.98);
+}
 .gradient-img {
   width: 400px;
   height: 400px;
