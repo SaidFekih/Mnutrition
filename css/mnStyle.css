@@ -133,7 +133,7 @@
   opacity: 1;
 }
 .line-separator {
-  height: 4px !important;
+  height: 4px;
   background-color: #94ba47;
   border: none;
   opacity: 1;
@@ -259,13 +259,20 @@
   z-index: -1;
   margin-bottom: -587px;
 }
-
 #right_side_order {
   transform: scale(0.7);
   box-shadow: -200px 170px #f3eee9;
   z-index: -1;
 }
-
+.schedule-footer {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 20px;
+}
+.padding-bullets {
+  margin-left: 25px;
+}
 .gradient-img {
   width: 400px;
   height: 400px;
