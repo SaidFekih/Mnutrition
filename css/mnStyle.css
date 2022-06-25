@@ -180,6 +180,14 @@
   background-size: 120% var(--img-height);
   background-position: var(--img-marging-x) var(--img-position);
 }
+.contact-us {
+  height: var(--img-heigth-content);
+  width: 100%;
+  background-image: url(../assets/img/pexels-polina-tankilevitch-4110193.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 -932px;
+  font-family: Poppins-ExtraBold;
+}
 
 .btn-rdv {
   background-color: #fff !important;
