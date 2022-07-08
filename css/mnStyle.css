@@ -204,6 +204,7 @@
 .btn-rdv-title {
   margin-top: 4px;
   font-size: var(--fs-rdv);
+  font-family: Poppins-ExtraBold;
 }
 .btn-rdv-text {
   font-size: var(--fs-rdv-p);
@@ -264,6 +265,22 @@
   transform: scale(0.7);
   box-shadow: -200px 170px #f3eee9;
   z-index: -1;
+}
+.horizontal-line {
+  background-color: #ffffff00;
+  opacity: 1;
+  background-image: linear-gradient(
+    to right,
+    rgba(228, 219, 210, 1),
+    rgba(228, 219, 210, 1) 20px,
+    #ffffff00 20px,
+    #ffffff00
+  );
+  background-size: 40px 100%;
+  background-size: 40px 100%;
+  height: 200px;
+  width: 100%;
+  margin-bottom: -200px;
 }
 .schedule-footer {
   text-decoration: none;

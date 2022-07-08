@@ -8,9 +8,9 @@
     <title>Mnutrition - Landing page</title>
   </head>
   <body>
-    <div class="container">
+    <div>
       <!-- top bar -->
-      <section id="topBar" class="bg-m-secondary py-2 w-100">
+      <section id="topBar" class="bg-m-secondary py-3 w-100">
         <div class="row">
           <div class=" col-10 col-md-6 col-lg-4 ps-5">
               <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -265,12 +265,7 @@
                   <span class="card-text text-m-dark">
                     <p class="fw-bold text-m-text-color fs-4 opacity-75 poppins-l "> Plus de 60 000 clients consultent.</p>
                     <p class="card-text fs-5">Plus de 40 nutritionnistes-diététistes au Québec pour retrouver le plaisir de manger!</p>
-                    <p class="card-text mb-4 fs-5">M Nutrition, ce sont des professionnelles de la nutrition qui son
-                      en mesure d'affirmer, grâce à leur solide bagage d'experience
-                      clinique, que « Lorsqu'on fait la paix avec notre corps et lo
-                      nourriture, tout va telloment mieux [ a En adhorant à cotte
-                      philosophie, le plaisir de manger est omniprésent et on acquier
-                      une conception différente de la gants</p><br>
+                    <p class="card-text mb-4 fs-5">M Nutrition, ce sont des professionnelles de la nutrition qui sont en meusure d'affirmer, grace a leur solide bagage d'expérience clinique, que "Lorsqu'on fait la paix avec notre corps et la nourriture, tout va tellement mieux !". En adhérant a cette philosophie, le plaisir de manger est omniprésent et on acquiert une conception différente de la santé.</p><br>
                       <button type="button" class="btn btn-lg btn-outline-m-dark text-uppercase rounded-pill fw-bold mt-4 px-4">En savoir plus</button>
                   </span>
                 </div>
@@ -307,11 +302,11 @@
                 d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
               />
             </svg>
-            <p
-              class="btn-rdv-title fw-bold text-m-text-color opacity-75 text-uppercase ms-lg-4 text-nowrap overflow-hidden"
+            <h1
+              class="btn-rdv-title fw-bolder text-m-dark text-uppercase ms-lg-4 text-nowrap overflow-hidden"
             >
               prendre rendez-vous
-            </p>
+          </h1>
           </span>
           <span class="d-none d-sm-flex justify-content-center">
             <p class="btn-rdv-text w-75">
@@ -323,7 +318,8 @@
         </button>
       </section>
       <!-- M ce que tu manges -->
-      <section id="mManges" class="p-3 s-m-manges">
+      <div class="container">
+        <section id="mManges" class="p-3 s-m-manges">
 
         <div class=" container col-12 d-flex justify-content-center justify-content-lg-end m-3">
           <div
@@ -409,7 +405,8 @@
             </div>
           </div>
         </div>
-      </section>
+        </section>
+      </div> 
       <!-- section Video Mnutrition -->
       <section class="ms-3 me-3 me-md-5 ms-lg-5">
         <div class="container p-3 p-md-4">
@@ -425,7 +422,8 @@
         </div>
       </section>
       <!-- section mission  -->
-      <section id="mission">
+      <div class="container">
+        <section id="mission">
         <div class="container d-block d-lg-flex">
           <div
             id="left_side"
@@ -542,7 +540,8 @@
             </div>
           </div>
         </div>
-      </section>
+        </section>
+      </div>
       <!-- Motifs de consultation -->
       <section id="consultation" class="container">
         <div class="d-flex justify-content-center col-12">
@@ -563,74 +562,203 @@
               <div
                 class="d-block d-md-flex justify-content-around col-6 col-md-12"
               >
-                <div>
-                  <img
-                    src="./assets/img/trouble.png"
-                    class="img-fluid border-0"
-                    style="max-width: 180px"
-                    alt="..."
-                  />
+                <div class="card mb-3 border-0" style="max-width: 300px; min-width: 200px; min-height: 243px;">
+                  <div class="row g-0">
+                    <div class="col-xl-6">
+                      <img
+                        src="assets\img\fourchette.png"
+                        class="rounded mx-auto d-block"
+                      />
+                    </div>
+                    <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                      <div class="card-body">
+                        <p
+                          class="card-text text-center text-m-dark text-uppercase"
+                          style="
+                            font-family: Poppins-Light;
+                            font-size: 13px;
+                            font-weight: 700;
+                          "
+                        >
+                          Troubles de l'alimentation et des conduites alimentaires
+                          (taca)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <img
-                    src="./assets/img/sportive.png"
-                    class="img-fluid border-0"
-                    style="max-width: 180px"
-                    alt="..."
-                  />
+                <div class="card mb-3 border-0" style="max-width: 300px; min-width: 200px; min-height: 243px;">
+                  <div class="row g-0">
+                    <div class="col-xl-6">
+                      <img
+                        src="assets\img\ballon.png"
+                        class="rounded mx-auto d-block"
+                      />
+                    </div>
+                    <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                      <div class="card-body">
+                        <p
+                          class="card-text text-center text-m-dark text-uppercase"
+                          style="
+                            font-family: Poppins-Light;
+                            font-size: 13px;
+                            font-weight: 700;
+                          "
+                        >
+                          Nutrition pour gens actifs et nutrition sportive
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <img
-                    src="./assets/img/diabete.png"
-                    class="img-fluid border-0"
-                    style="max-width: 180px"
-                    alt="..."
-                  />
+                <div class="card mb-3 border-0" style="max-width: 300px; min-width: 200px;min-height: 243px;">
+                  <div class="row g-0">
+                    <div class="col-xl-6">
+                      <img
+                        src="assets\img\bebe.png"
+                        class="rounded mx-auto d-block"
+                      />
+                    </div>
+                    <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                      <div class="card-body">
+                        <p
+                          class="card-text text-center text-m-dark text-uppercase"
+                          style="
+                            font-family: Poppins-Light;
+                            font-size: 13px;
+                            font-weight: 700;
+                          "
+                        >
+                          Grossesse allaitement et pédiatrie
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <img
-                    src="./assets/img/allaitement.png"
-                    class="img-fluid border-0"
-                    style="max-width: 180px"
-                    alt="..."
-                  />
+                <div class="card mb-3 border-0" style="max-width: 300px; min-width: 200px;min-height: 243px;">
+                  <div class="row g-0">
+                    <div class="col-xl-6">
+                      <img
+                        src="assets\img\doc.png"
+                        class="rounded mx-auto d-block"
+                      />
+                    </div>
+                    <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                      <div class="card-body">
+                        <p
+                          class="card-text text-center text-m-dark text-uppercase"
+                          style="
+                            font-family: Poppins-Light;
+                            font-size: 13px;
+                            font-weight: 700;
+                          "
+                        >
+                          Diabéte cholestérol
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div
                 class="d-block d-md-flex justify-content-around col-6 col-md-12"
               >
-                <div>
-                  <img
-                    src="./assets/img/gastro.png"
-                    class="img-fluid border-0"
-                    style="max-width: 180px"
-                    alt="..."
-                  />
+              <div class="card mb-3 border-0" style="max-width: 300px; min-width: 200px;min-height: 243px;">
+                <div class="row g-0">
+                  <div class="col-xl-6">
+                    <img
+                      src="assets\img\coeur.png"
+                      class="rounded mx-auto d-block"
+                    />
+                  </div>
+                  <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                    <div class="card-body">
+                      <p
+                        class="card-text text-center text-m-dark text-uppercase"
+                        style="
+                          font-family: Poppins-Light;
+                          font-size: 13px;
+                          font-weight: 700;
+                        "
+                      >
+                        Acquisition de saines habitudes
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <img
-                    src="./assets/img/habitudes.png"
-                    class="img-fluid border-0"
-                    style="max-width: 180px"
-                    alt="..."
-                  />
+              </div>
+              <div class="card mb-3 border-0" style="max-width: 300px; min-width: 200px;min-height: 243px;">
+                <div class="row g-0">
+                  <div class="col-xl-6">
+                    <img
+                      src="assets\img\cereal.png"
+                      class="rounded mx-auto d-block"
+                    />
+                  </div>
+                  <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                    <div class="card-body">
+                      <p
+                        class="card-text text-center text-m-dark text-uppercase"
+                        style="
+                          font-family: Poppins-Light;
+                          font-size: 13px;
+                          font-weight: 700;
+                        "
+                      >
+                        allergies et intolérances
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <img
-                    src="./assets/img/allergies.png"
-                    class="img-fluid border-0"
-                    style="max-width: 180px"
-                    alt="..."
-                  />
+              </div>
+              <div class="card mb-3 border-0" style="max-width: 300px; min-width: 200px;min-height: 243px;">
+                <div class="row g-0">
+                  <div class="col-xl-6">
+                    <img
+                      src="assets\img\feuille.png"
+                      class="rounded mx-auto d-block"
+                    />
+                  </div>
+                  <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                    <div class="card-body">
+                      <p
+                        class="card-text text-center text-m-dark text-uppercase"
+                        style="
+                          font-family: Poppins-Light;
+                          font-size: 13px;
+                          font-weight: 700;
+                        "
+                      >
+                        végétarisme/ végétalisme/ alimentaion végétale peu transformée
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <img
-                    src="./assets/img/vegetale.png"
-                    class="img-fluid border-0"
-                    style="max-width: 180px"
-                    alt="..."
-                  />
+              </div>
+              <div class="card mb-3 border-0" style="max-width: 300px; min-width: 200px;min-height: 243px;">
+                <div class="row g-0">
+                  <div class="col-xl-6">
+                    <img
+                      src="assets\img\reload.png"
+                      class="rounded mx-auto d-block"
+                    />
+                  </div>
+                  <div class="col-xl-6 d-flex align-items-center justify-content-center">
+                    <div class="card-body">
+                      <p
+                        class="card-text text-center text-m-dark text-uppercase"
+                        style="
+                          font-family: Poppins-Light;
+                          font-size: 13px;
+                          font-weight: 700;
+                        "
+                      >
+                        santé gastro-intestinale
+                      </p>
+                    </div>
+                  </div>
                 </div>
+              </div>
               </div>
             </div>
             <div class="d-flex justify-content-center">
@@ -673,7 +801,7 @@
               />
             </svg>
             <p
-              class="btn-rdv-title fw-bold text-m-text-color opacity-75 text-uppercase ms-lg-4 text-nowrap overflow-hidden"
+            class="btn-rdv-title fw-bolder text-m-dark text-uppercase ms-lg-4 text-nowrap overflow-hidden"
             >
               prendre rendez-vous
             </p>
@@ -715,7 +843,10 @@
         </div>
       </section> 
       <!-- section articles -->
-      <section id="articles_section">
+      <section id="articles_section" class="mt-5">
+        <div class="horizontal-line">
+
+        </div>
         <div class="container mt-5 pt-5">
           <div class="row g-3">
             <div class="col-12 col-md-6 col-lg-4">
@@ -861,7 +992,7 @@
                     <hr class="col-8 border-0" />
                   </div>
                 </div>
-                <div class="bg-transparent border border-2">
+                <div class="bg-transparent">
                   <div class="row g-1">
                     <div class="col-12 col-md-6 col-lg-4">
                       <img
